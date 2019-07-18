@@ -1,0 +1,49 @@
+/*important line for getting the font right...*/
+@import url(https://fonts.googleapis.com/css?family=Pompiere);
+
+.container {
+  margin-top: 20px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+/*note the combining of different selectors*/
+nav div, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pompiere';
+  text-transform: uppercase;
+}
+
+.nav li {
+  margin-top: 12px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.nav li a{
+	color: green;
+}
+
+.nav li:nth-child(even) {
+  background-color: #c2f0c2;
+}
+
+#headerImg{
+	width: 90%;
+	height: 200px;
+}
+
+a.thumbnail:hover{
+	border: 1px solid black;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+footer p {
+ 	
+	text-align: center;
+}
+
